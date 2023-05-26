@@ -8,8 +8,8 @@ def get_books():
     server_url = request.base_url
     books = [
         {
-            'name': 'Book 1',
-            'author': 'Author 1',
+            'name': "There's a Monster",
+            'author': 'Danielle Bruckert',
             'description': 'Description 1',
             'language': 'English',
             'cover_image_path': server_url + url_for('static', filename='assets/images/book1.jpg'),
@@ -17,8 +17,8 @@ def get_books():
             'genre' : 'Fiction'
         },
         {
-            'name': 'Book 2',
-            'author': 'Author 2',
+            'name': 'The fox who wanted to fly.',
+            'author': 'M.Fox',
             'description': 'Description 2',
             'language': 'Hindi',
             'cover_image_path': server_url + url_for('static', filename='assets/images/book2.jpg'),
@@ -26,8 +26,8 @@ def get_books():
             'genre' : 'Non Fiction'
         },
         {
-            'name': 'Book 3',
-            'author': 'Author 3',
+            'name': 'Under My Pillow',
+            'author': 'Jennifer Ballow',
             'description': 'Description 3',
             'language': 'Telugu',
             'cover_image_path': server_url + url_for('static', filename='assets/images/book3.jpg'),
@@ -35,8 +35,8 @@ def get_books():
             'genre' : 'Fiction'
         },
         {
-            'name': 'Book 4',
-            'author': 'Author 4',
+            'name': 'Welcome to Creply Hollow',
+            'author': 'Aurora S. Forst',
             'description': 'Description 4',
             'language': 'Tamil',
             'cover_image_path': server_url + url_for('static', filename='assets/images/book4.jpg'),
@@ -44,8 +44,8 @@ def get_books():
             'genre' : 'Non Fiction'
         },
         {
-            'name': 'Book 5',
-            'author': 'Author 5',
+            'name': 'The Golden Flower',
+            'author': 'Lee Gamboa',
             'description': 'Description 5',
             'language': 'English',
             'cover_image_path': server_url + url_for('static', filename='assets/images/book5.jpg'),
