@@ -12,7 +12,7 @@ def get_books():
             'author': 'Danielle Bruckert',
             'description': 'Description 1',
             'language': 'English',
-            'cover_image_path': server_url + url_for('static', filename='assets/images/book1.jpg'),
+            'cover_image_path': server_url + url_for('static', filename='assets/images/book1.png'),
             'pdf_path': server_url + url_for('static', filename='assets/pdfs/book1.pdf'),
             'genre' : 'Fiction'
         },
@@ -21,7 +21,7 @@ def get_books():
             'author': 'M.Fox',
             'description': 'Description 2',
             'language': 'Hindi',
-            'cover_image_path': server_url + url_for('static', filename='assets/images/book2.jpg'),
+            'cover_image_path': server_url + url_for('static', filename='assets/images/book2.png'),
             'pdf_path': server_url + url_for('static', filename='assets/pdfs/book2.pdf'),
             'genre' : 'Non Fiction'
         },
@@ -30,7 +30,7 @@ def get_books():
             'author': 'Jennifer Ballow',
             'description': 'Description 3',
             'language': 'Telugu',
-            'cover_image_path': server_url + url_for('static', filename='assets/images/book3.jpg'),
+            'cover_image_path': server_url + url_for('static', filename='assets/images/book3.png'),
             'pdf_path': server_url + url_for('static', filename='assets/pdfs/book3.pdf'),
             'genre' : 'Fiction'
         },
@@ -39,7 +39,7 @@ def get_books():
             'author': 'Aurora S. Forst',
             'description': 'Description 4',
             'language': 'Tamil',
-            'cover_image_path': server_url + url_for('static', filename='assets/images/book4.jpg'),
+            'cover_image_path': server_url + url_for('static', filename='assets/images/book4.png'),
             'pdf_path': server_url + url_for('static', filename='assets/pdfs/book4.pdf'),
             'genre' : 'Non Fiction'
         },
@@ -48,7 +48,7 @@ def get_books():
             'author': 'Lee Gamboa',
             'description': 'Description 5',
             'language': 'English',
-            'cover_image_path': server_url + url_for('static', filename='assets/images/book5.jpg'),
+            'cover_image_path': server_url + url_for('static', filename='assets/images/book5.png'),
             'pdf_path': server_url + url_for('static', filename='assets/pdfs/book5.pdf'),
             'genre' : 'Fiction'
         }
